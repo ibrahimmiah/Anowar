@@ -1,0 +1,233 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2090000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Browser",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1945000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Url \"https://classic.freecrm.com/index.html?e\u003d1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://classic.freecrm.com/index.html?e\u003d1",
+                  "offset": 11
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.enter_Url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T03:38:14.652Z",
+        "line": 10,
+        "name": "User able to login with valid UsarName and valid PassWoard",
+        "description": "",
+        "id": "login-feature-test;user-able-to-login-with-valid-usarname-and-valid-passwoard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter valid UserName \"batchautomation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 24
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.i_Enter_valid_UserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter valid PassWoard \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@12345",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.i_Enter_valid_PassWoard(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2294000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Click LogInButton",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.i_Click_LogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am able to LogIn",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.i_am_able_to_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1226000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Browser",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1902000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Url \"https://classic.freecrm.com/index.html?e\u003d1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://classic.freecrm.com/index.html?e\u003d1",
+                  "offset": 11
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.enter_Url(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T03:38:21.465Z",
+        "line": 18,
+        "name": "User are not able to login with invalid UsarName and valid PassWoard",
+        "description": "",
+        "id": "login-feature-test;user-are-not-able-to-login-with-invalid-usarname-and-valid-passwoard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Enter invalid UserName \"batchautomation1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation1",
+                  "offset": 26
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.i_Enter_invalid_UserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Enter valid PassWoard \"Test@123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@123456",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepsDefination.LogInSteps.i_Enter_valid_PassWoard(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2176000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Click LogInButton",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.i_Click_LogInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am not able to LogIn",
+            "match": {
+              "location": "com.stepsDefination.LogInSteps.i_am_not_able_to_LogIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn Feature Test",
+    "description": "",
+    "id": "login-feature-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]

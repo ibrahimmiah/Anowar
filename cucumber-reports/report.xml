@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.088">
+<testcase classname="LogIn Feature Test" name="User able to login with valid UsarName and valid PassWoard" time="7.575">
+<system-out><![CDATA[Given Open Browser..........................................................passed
+And Enter Url "https://classic.freecrm.com/index.html?e=1"..................passed
+When I Enter valid UserName "batchautomation"...............................passed
+And I Enter valid PassWoard "Test@12345"....................................passed
+And I Click LogInButton.....................................................passed
+Then I am able to LogIn.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="LogIn Feature Test" name="User are not able to login with invalid UsarName and valid PassWoard" time="6.393">
+<system-out><![CDATA[Given Open Browser..........................................................passed
+And Enter Url "https://classic.freecrm.com/index.html?e=1"..................passed
+When I Enter invalid UserName "batchautomation1"............................passed
+And I Enter valid PassWoard "Test@123456"...................................passed
+And I Click LogInButton.....................................................passed
+Then I am not able to LogIn.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
